@@ -1,0 +1,31 @@
+{
+    "id": "foundryvtt-bestagons",
+    "title": "Hexagons Are The Bestagons",
+    "description": "A simple module that fixes the HexagonalGrid.pixelsToOffset() function.",
+    "version": "#{VERSION}#",
+    "library": "true",
+    "authors": [
+        {
+            "name": "7H3LaughingMan",
+            "discord": "7h3laughingman"
+        }
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "scripts": [
+        "index.js"
+    ],
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "media": [
+        {
+            "type": "icon",
+            "url": "https://avatars.githubusercontent.com/u/117857081?v=4"
+        }
+    ]
+}
