@@ -8,7 +8,7 @@ This is a very simple module, all it's doing is replacing a single function in F
 
 ## Details
 
-As I mentioned above Foundry VTT isn't actually checking to see if a point is within a hex, instead it kind of cheats and breaks it down into rectangles. So it's actually just checking to see what rectange a point would fall into which is pretty simple. The problem as you can see below is that parts of the rectangle include adjacent hexes and if you hover your mouse over those spots it will think you are hovering over a different hex. Well if you take a look at it those sections are actually two triangles. So by using the the arcane arts known as the **Pythagorean Theorem** we can actually check to see if the point is in one of those triangles or not.
+As I mentioned above Foundry VTT isn't actually checking to see if a point is within a hex, instead it kind of cheats and breaks it down into rectangles. So it's actually just checking to see what rectangle a point would fall into which is pretty simple. The problem as you can see below is that parts of the rectangle include adjacent hexes and if you hover your mouse over those spots it will think you are hovering over a different hex. Well if you take a look at it those sections are actually two triangles. So by using the the arcane arts known as the **Pythagorean Theorem** we can actually check to see if the point is in one of those triangles or not.
 
 ![Hexagon Row Hitbox](https://github.com/7H3LaughingMan/foundryvtt-bestagons/blob/main/images/hexagon-row-hitbox.png?raw=true)
 
